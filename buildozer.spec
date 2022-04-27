@@ -32,7 +32,7 @@ version.filename = %(source.dir)s/main.py
 # version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy
+requirements = kivy, bs4, requests, shutil, pathlib
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -61,7 +61,7 @@ fullscreen = 1
 #android.minapi = 8
 
 # (int) Android SDK version to use
-#android.sdk = 21
+#android.sdk = 28
 
 # (str) Android NDK version to use
 #android.ndk = 9
