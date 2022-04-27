@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Kpritz
+title = Test
 
 # (str) Package name
-package.name = Kpritz
+package.name = Test
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = fr.tshirtman.kpritz
+package.domain = com.temder.test
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -32,7 +32,7 @@ version.filename = %(source.dir)s/main.py
 # version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy, bs4, requests, shutil, pathlib
+requirements = kivy, bs4, requests
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
