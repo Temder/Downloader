@@ -32,7 +32,7 @@ version.filename = %(source.dir)s/main.py
 # version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy, bs4, requests
+requirements = python3, kivy, kivymd, pillow
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
